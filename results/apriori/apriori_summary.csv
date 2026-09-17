@@ -1,0 +1,2 @@
+total_transactions,multi_item_baskets,minimum_support,minimum_confidence,frequent_1_itemsets,frequent_2_itemsets,frequent_3_itemsets,total_frequent_itemsets,total_association_rules,total_candidates_generated,start_time,end_time,execution_time_seconds
+98666,3236,3e-05,0.1,7923,66,1,7990,91,34441,2026-09-17 15:07:24,2026-09-17 15:07:27,2.98

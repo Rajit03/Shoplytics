@@ -1,0 +1,2 @@
+total_unique_products,target_fpr_percent,bit_array_size_m,hash_functions_k,bits_set_count,bit_fill_ratio_percent,test_existing_queries,true_positives,false_negatives,false_negative_rate_percent,test_non_existing_queries,true_negatives,false_positives,empirical_fpr_percent,theoretical_fpr_percent,bloom_filter_size_kb,python_set_size_kb,memory_savings_percent,insertion_throughput_ops_sec
+32951,1.0,315838,7,163460,51.75,10000,10000,0,0.0,50000,49525,475,0.95,1.0039,77.17,4397.26,98.25,141881.62

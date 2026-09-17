@@ -1,0 +1,2 @@
+total_stream_elements,exact_distinct_elements,fm_estimated_distinct,absolute_error,percentage_error,hash_functions,num_groups,correction_factor_phi,fm_memory_bytes,exact_set_memory_kb,memory_savings_percent,processing_throughput_ops_sec
+99441,96096,107671.95,11575.95,12.05,24,4,0.77351,7984,10946.8,99.93,18417.34
