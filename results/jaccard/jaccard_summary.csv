@@ -1,0 +1,2 @@
+customers_analyzed,unique_products,total_possible_pairs,candidate_pairs,similar_pairs,candidate_pruning_ratio_percent,maximum_similarity,average_similarity,start_time,end_time,execution_time_seconds
+95420,32951,4552440490,1563117,1563117,99.9657,1.0,0.906,2026-09-17 15:12:19,2026-09-17 15:12:29,10.4
