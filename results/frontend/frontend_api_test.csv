@@ -1,0 +1,9 @@
+page,frontend_route,api_endpoint,frontend_status,api_status,api_latency_ms,status,notes
+Dashboard,/,/api/dashboard/summary,200,200,527.63,PASSED,Verified with 241 bytes data payload
+Customers,/customers,/api/customers?page=1&page_size=20,200,200,118.71,PASSED,Verified with 3704 bytes data payload
+Customer Details,/customers/0000366f3b9a7992bf8c76cfdf3221e2,/api/customers/0000366f3b9a7992bf8c76cfdf3221e2/profile,200,200,26.81,PASSED,Verified with 545 bytes data payload
+Products,/products,/api/products?page=1&page_size=20,200,200,12.93,PASSED,Verified with 6456 bytes data payload
+Orders,/orders,/api/orders?page=1&page_size=20,200,200,17.53,PASSED,Verified with 10389 bytes data payload
+Customer Segments,/segments,/api/segments/profiles,200,200,6.78,PASSED,Verified with 749 bytes data payload
+Recommendations,/recommendations,/api/recommendations/0f8758e5b1c6c6b2156a9dddce128558,200,200,7.52,PASSED,Verified with 2960 bytes data payload
+Association Rules,/association-rules,/api/association-rules?limit=20,200,200,18.86,PASSED,Verified with 6935 bytes data payload

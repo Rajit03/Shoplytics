@@ -1,0 +1,9 @@
+table,row_count,load_status,load_time_seconds
+customer_segments,95420,SUCCESS,2.88
+cluster_profiles,4,SUCCESS,0.02
+customers,95420,SUCCESS,3.55
+products,32951,SUCCESS,1.63
+orders,99441,SUCCESS,14.11
+recommendations,10000,SUCCESS,0.52
+association_rules,91,SUCCESS,0.03
+analytics,112650,SUCCESS,22.57

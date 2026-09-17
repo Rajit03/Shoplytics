@@ -1,0 +1,13 @@
+query_name,execution_time_ms,index_used,status
+Customer Lookup by ID,0.878,Yes / Index Scan,SUCCESS
+Top Spending Customers,35.786,No / Seq Scan,SUCCESS
+Customer Cluster Lookup,2.05,Yes / Index Scan,SUCCESS
+Products by Category,0.124,No / Seq Scan,SUCCESS
+Recommendation Lookup by Customer ID,0.381,Yes / Index Scan,SUCCESS
+Top Association Rules,0.107,Yes / Index Scan,SUCCESS
+Total Sales Aggregation,406.137,No / Seq Scan,SUCCESS
+Monthly Sales Query,19.869,Yes / Index Scan,SUCCESS
+Top Products Query,125.064,No / Seq Scan,SUCCESS
+Order Status Distribution,19.739,No / Seq Scan,SUCCESS
+JOIN Customers with Segments,65.193,No / Seq Scan,SUCCESS
+JOIN Recommendations with Products,0.415,Yes / Index Scan,SUCCESS

@@ -1,0 +1,40 @@
+========================================
+SHOPLYTICS API TEST EXECUTION LOG
+========================================
+Server: http://127.0.0.1:8000
+Timestamp: 2026-09-18 00:53:30
+
+Root                             | GET    | 200         | 42.36              | PASSED  
+Health Check                     | GET    | 200         | 202.64             | PASSED  
+Dashboard Summary                | GET    | 200         | 263.59             | PASSED  
+List Customers                   | GET    | 200         | 71.34              | PASSED  
+Get Customer by ID               | GET    | 200         | 32.44              | PASSED  
+Top Spenders                     | GET    | 200         | 144.44             | PASSED  
+Search Customers                 | GET    | 200         | 83.56              | PASSED  
+Customer Full Profile            | GET    | 200         | 30.38              | PASSED  
+List Products                    | GET    | 200         | 32.50              | PASSED  
+Get Product by ID                | GET    | 200         | 26.49              | PASSED  
+Products by Category             | GET    | 200         | 46.21              | PASSED  
+Top Products                     | GET    | 200         | 113.49             | PASSED  
+List Orders                      | GET    | 200         | 30.13              | PASSED  
+Get Order by ID                  | GET    | 200         | 10.72              | PASSED  
+Orders by Status                 | GET    | 200         | 98.66              | PASSED  
+Recent Orders                    | GET    | 200         | 5.45               | PASSED  
+Customer Segments Summary        | GET    | 200         | 66.30              | PASSED  
+Cluster Profile Boundaries       | GET    | 200         | 28.16              | PASSED  
+Cluster Details                  | GET    | 200         | 6.19               | PASSED  
+Cluster Customers                | GET    | 200         | 29.49              | PASSED  
+Customer Recommendations         | GET    | 200         | 31.57              | PASSED  
+List Recommendations             | GET    | 200         | 12.34              | PASSED  
+Association Rules                | GET    | 200         | 21.62              | PASSED  
+Top Association Rules            | GET    | 200         | 18.65              | PASSED  
+Sales Summary                    | GET    | 200         | 124.56             | PASSED  
+Monthly Sales                    | GET    | 200         | 553.80             | PASSED  
+Category Sales                   | GET    | 200         | 522.00             | PASSED  
+Product Sales                    | GET    | 200         | 108.82             | PASSED  
+Seller Sales                     | GET    | 200         | 598.21             | PASSED  
+Order Status Breakdown           | GET    | 200         | 35.91              | PASSED  
+
+Passed: 30
+Failed: 0
+Total:  30

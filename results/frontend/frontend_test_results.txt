@@ -1,0 +1,17 @@
+========================================
+SHOPLYTICS FRONTEND TEST RESULTS
+========================================
+Timestamp: 2026-09-18 01:04:09
+Frontend: http://127.0.0.1:5173
+Backend:  http://127.0.0.1:8000
+
+Dashboard              | /                | 200 OK     | 200 OK           | PASSED  
+Customers              | /customers       | 200 OK     | 200 OK           | PASSED  
+Customer Details       | /customers/0000366f3b9a7992bf8c76cfdf3221e2 | 200 OK     | 200 OK           | PASSED  
+Products               | /products        | 200 OK     | 200 OK           | PASSED  
+Orders                 | /orders          | 200 OK     | 200 OK           | PASSED  
+Customer Segments      | /segments        | 200 OK     | 200 OK           | PASSED  
+Recommendations        | /recommendations | 200 OK     | 200 OK           | PASSED  
+Association Rules      | /association-rules | 200 OK     | 200 OK           | PASSED  
+
+All Pages & APIs Operational: YES (8/8 PASSED)
