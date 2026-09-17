@@ -1,0 +1,2 @@
+customers_processed,recommendations_generated,top_n,customers_with_recommendations,unique_products_recommended,average_recommendation_score,execution_time_seconds,start_time,end_time,total_pipeline_time_seconds
+1000,10000,10,1000,26,0.7246,0.34,2026-09-17 22:59:18,2026-09-17 22:59:42,23.31
