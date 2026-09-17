@@ -1,0 +1,2 @@
+total_stream_events,window_size,actual_delivered_orders,dgim_estimated_orders,absolute_error,percentage_error,dgim_buckets
+99441,1000,954,990.0,36.0,3.77,17
