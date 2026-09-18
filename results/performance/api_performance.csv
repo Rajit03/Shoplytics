@@ -1,0 +1,20 @@
+endpoint,requests,min_ms,max_ms,average_ms,median_ms,success_rate
+GET /health,10,182.58,516.28,376.39,442.82,100.0%
+GET /api/dashboard/summary,10,390.22,470.08,441.31,452.36,100.0%
+GET /api/customers,10,59.26,195.99,80.91,63.51,100.0%
+GET /api/customers/{customer_id},10,0.63,16.88,2.51,0.9,100.0%
+GET /api/customers/top-spenders,10,42.97,68.13,53.91,54.18,100.0%
+GET /api/customers/search,10,277.14,292.41,285.38,284.98,100.0%
+GET /api/customers/{id}/profile,10,3.09,9.89,5.73,5.47,100.0%
+GET /api/products,10,3.39,7.74,5.31,5.4,100.0%
+GET /api/products/{product_id},10,0.55,1.22,0.77,0.76,100.0%
+GET /api/products/top,10,337.16,409.15,360.88,353.75,100.0%
+GET /api/orders,10,16.79,24.04,20.12,20.44,100.0%
+GET /api/orders/{order_id},10,0.86,1.69,1.08,1.02,100.0%
+GET /api/orders/recent,10,0.6,1.64,0.94,0.83,100.0%
+GET /api/segments/profiles,10,0.44,1.65,0.67,0.57,100.0%
+GET /api/segments/{id}/customers,10,57.41,199.84,76.38,61.72,100.0%
+GET /api/association-rules,10,0.87,3.42,1.32,1.07,100.0%
+GET /api/association-rules/top,10,0.44,1.29,0.75,0.68,100.0%
+GET /api/sales/categories,10,1922.42,2074.63,1972.25,1969.41,100.0%
+GET /api/sales/order-status,10,15.09,36.51,29.48,30.42,100.0%

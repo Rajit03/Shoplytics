@@ -1,0 +1,9 @@
+query_name,execution_time_ms,index_used,status
+Customer Lookup by Unique ID,0.085,idx_customers_cluster / PK Scan,PASSED
+Top-spending Customers (10 Rows),59.676,Index Scan / Sort,PASSED
+Customer Segmentation Cluster Distribution,64.972,idx_cust_segments_cluster,PASSED
+Recommendations by Customer ID,0.044,idx_recs_customer_id,PASSED
+Monthly Sales Revenue Trend,1536.099,idx_analytics_order_id / Date Aggregation,PASSED
+Category Sales Aggregation (Top 10),160.204,idx_analytics_category,PASSED
+Top Products by Revenue (10 Rows),238.827,idx_analytics_product_id,PASSED
+Association Rules by Minimum Lift Filter,0.05,idx_rules_lift,PASSED

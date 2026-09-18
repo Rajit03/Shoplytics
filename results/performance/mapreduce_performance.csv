@@ -1,0 +1,4 @@
+job,input_size_mb,execution_time_seconds,map_tasks,reduce_tasks,shuffle_records,spilled_records,output_records
+Order Revenue Aggregation (MapReduce),15.16,18.42,1,1,112650,112650,98666
+Category Sales Aggregation (MapReduce),15.16,16.15,1,1,112650,112650,73
+Order Status Distribution (MapReduce),22.55,14.8,1,1,99441,99441,8

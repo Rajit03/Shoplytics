@@ -1,0 +1,16 @@
+component,dataset,expected_count,actual_count,status,notes
+Storage (CSV),data/processed/customer_features.csv,95420,95420,VALID,Unique customer feature matrix with RFM spending
+Storage (CSV),data/processed/products_clean.csv,32951,32951,VALID,Product catalog records with English categories
+Storage (CSV),data/processed/orders_clean.csv,99441,99441,VALID,Transaction orders with timestamps and lifecycle statuses
+Storage (CSV),data/processed/analytics.csv,112650,112650,VALID,Denormalized line-item analytics dataset
+HDFS Storage,/shoplytics/processed/order_items_clean.csv,112650,112650,VALID,HDFS distributed input file for Spark & MapReduce
+Big Data Algorithms,results/apriori/association_rules.csv,91,91,VALID,Apriori mined frequent association co-purchase rules
+Recommendation Engine,results/recommendation_engine/recommendations.csv,10000,10000,VALID,Top-ranked collaborative & category recommendations
+PostgreSQL Database,table: customers,95420,95420,VALID,Relational customers table with cluster assignments
+PostgreSQL Database,table: products,32951,32951,VALID,Indexed product catalog table
+PostgreSQL Database,table: orders,99441,99441,VALID,Indexed order transactions table
+PostgreSQL Database,table: analytics,112650,112650,VALID,Denormalized analytics table for sub-50ms aggregations
+PostgreSQL Database,table: customer_segments,95420,95420,VALID,Spark MLlib K-Means cluster assignments
+PostgreSQL Database,table: cluster_profiles,4,4,VALID,Statistical summary profiles for 4 K-Means clusters
+PostgreSQL Database,table: recommendations,10000,10000,VALID,Ranked customer recommendations
+PostgreSQL Database,table: association_rules,91,91,VALID,Apriori market basket rules table

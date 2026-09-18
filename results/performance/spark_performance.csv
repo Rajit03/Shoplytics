@@ -1,0 +1,4 @@
+job,input_size_mb,execution_time_seconds,stages,tasks,output_records
+Sales Analytics & Top Products/Sellers (PySpark),15.16,3.84,3,8,32341
+Customer Segmentation K-Means (Spark MLlib),4.98,6.12,5,12,95420
+Spark SQL Product Sales Aggregation,15.16,2.45,2,4,32341

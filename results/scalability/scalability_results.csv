@@ -1,0 +1,7 @@
+framework,dataset,rows,input_size_mb,execution_time_seconds,status
+Apache Spark (In-Memory Processing Model),synthetic_1x.csv,112650,16.12,0.45,COMPLETED
+Hadoop MapReduce (Disk I/O Model),synthetic_1x.csv,112650,16.12,1.539,COMPLETED
+Apache Spark (In-Memory Processing Model),synthetic_5x.csv,563250,80.62,1.651,COMPLETED
+Hadoop MapReduce (Disk I/O Model),synthetic_5x.csv,563250,80.62,5.646,COMPLETED
+Apache Spark (In-Memory Processing Model),synthetic_10x.csv,1126500,161.24,3.631,COMPLETED
+Hadoop MapReduce (Disk I/O Model),synthetic_10x.csv,1126500,161.24,12.418,COMPLETED

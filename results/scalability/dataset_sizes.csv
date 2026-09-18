@@ -1,0 +1,4 @@
+dataset_name,rows,file_size_mb,generation_time_seconds
+synthetic_1x.csv,112650,16.12,0.669
+synthetic_5x.csv,563250,80.62,2.42
+synthetic_10x.csv,1126500,161.24,4.616

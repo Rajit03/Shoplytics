@@ -55,9 +55,20 @@ backend/
 ## 4. Setup & Running
 
 ### 1. Activate Virtual Environment
-```cmd
-C:\Projects\Shoplytics\backend\venv\Scripts\activate.bat
-```
+- **PowerShell**:
+  ```powershell
+  cd C:\Projects\Shoplytics\backend
+  .\venv\Scripts\Activate.ps1
+  ```
+- **Command Prompt (CMD)**:
+  ```cmd
+  cd C:\Projects\Shoplytics\backend
+  venv\Scripts\activate.bat
+  ```
+- **Linux / macOS (Bash)**:
+  ```bash
+  source venv/bin/activate
+  ```
 
 ### 2. Configure Environment (`.env`)
 ```ini
@@ -69,13 +80,19 @@ DATABASE_PASSWORD=your_password
 ```
 
 ### 3. Launch Development Server
-```cmd
+```powershell
 uvicorn app.main:app --host 127.0.0.1 --port 8000 --reload
+```
+
+*💡 **Direct One-Liner (No manual activation needed)**:*
+```powershell
+.\venv\Scripts\uvicorn.exe app.main:app --host 127.0.0.1 --port 8000 --reload
 ```
 
 ### 4. Interactive Documentation
 - **Swagger UI**: [http://127.0.0.1:8000/docs](http://127.0.0.1:8000/docs)
 - **ReDoc**: [http://127.0.0.1:8000/redoc](http://127.0.0.1:8000/redoc)
+- **Health Check**: [http://127.0.0.1:8000/health](http://127.0.0.1:8000/health)
 
 ---
 

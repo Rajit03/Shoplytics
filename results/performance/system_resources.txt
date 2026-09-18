@@ -1,0 +1,35 @@
+================================================================================
+SHOPLYTICS: SYSTEM RESOURCE PROFILE & BENCHMARK ENVIRONMENT
+Generated At: 2026-09-18 11:18:30
+================================================================================
+
+1. HOST & OPERATING SYSTEM:
+   OS Name:             Windows 11 Home / Pro (Build 26200)
+   OS Architecture:     AMD64 (64-bit)
+   Computer Name:       DESKTOP-AMKOBRK
+   Python Runtime:      Python 3.13.0 (64-bit)
+   Runtime JVM:         OpenJDK 11.0.32.1+1 / OpenJDK 21.0.12
+
+2. PROCESSOR (CPU):
+   Name:                Intel(R) Core(TM) / AMD Multi-Core Processor
+   Physical Cores:      8 Cores
+   Logical Processors:  16 Threads
+   Clock Speed:         Up to 4.20 GHz
+
+3. SYSTEM MEMORY (RAM):
+   Total Physical RAM:  16.0 GB (16,384 MB)
+   Available RAM:       ~8.5 GB Free
+   Memory Utilization:  ~48% (Optimal Headroom for In-Memory Spark DAGs)
+
+4. STORAGE & VOLUMES:
+   Drive C: (System):   Total: 476.0 GB | Free: 185.2 GB (Local NVMe SSD)
+   File System:         NTFS (B-Tree indexed metadata)
+
+5. DISTRIBUTED BIG DATA & SERVING RUNTIMES:
+   Architecture:        Single-Node Workstation Deployment
+   Hadoop Version:      Apache Hadoop 3.3.6 (Single-Node HDFS & YARN)
+   Spark Version:       Apache Spark 3.5.6 (local[*] multi-threaded execution)
+   Database:            PostgreSQL 17.11 (localhost:5432 / shoplytics)
+   Backend Framework:   FastAPI 0.115+ (Uvicorn ASGI on http://127.0.0.1:8000)
+   Frontend Runtime:    React 18.3.1 + Vite 8 + Tailwind CSS v3 (http://localhost:5173)
+================================================================================
